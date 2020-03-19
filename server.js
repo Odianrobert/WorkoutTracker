@@ -19,7 +19,7 @@ mongoose.connect(MONGODB_URI,{
 
 
 require("./routes/html")(app);
-require("./routes/api")(app);
+//require("./routes/api")(app);
 
 app.listen(PORT,function(){ 
     console.log(`App listening on Port ${PORT}`);
