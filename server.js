@@ -2,11 +2,10 @@ const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 
-
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-app.use(morgan("dev"));
+app.use(morgan("dev")); //From class example
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
@@ -18,7 +17,7 @@ mongoose.connect(MONGODB_URI,{
     useFindAndModify:false
 })
 
-require("./routes/apiRoutes")(app);
+
 require("./routes/htmlRoutes")(app);
 
 app.listen(PORT,function(){ 
