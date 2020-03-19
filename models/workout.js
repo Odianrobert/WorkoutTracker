@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const workoutSchema = newSchema (
+const workoutSchema = new Schema (
     {
         day: {
             type : Date,
@@ -23,7 +23,7 @@ const workoutSchema = newSchema (
                     type: Number, 
                     required: "You Must Enter a Duration in Minutes"
                 },
-                weigt: {
+                weight: {
                     type: Number
                 },
                 reps: {
