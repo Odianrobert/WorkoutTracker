@@ -17,6 +17,7 @@ mongoose.connect(MONGODB_URI,{
     useFindAndModify:false
 })
 
+//mongodb://<dbuser>:<dbpassword>@ds251819.mlab.com:51819/heroku_584r6vn5
 
 require("./routes/html")(app);
 require("./routes/api")(app);
