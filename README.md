@@ -1,6 +1,7 @@
 The Workout Tracker!
 
-Use this app to create or continue a workout.  You can enter type, length in miles, duration in minutes, and weight in pounds.  After logging your workout, you can see your stats.  This app uses Mongodb with Mongoose.  Here is the link to the app: 
+Use this app to create or continue a workout.  You can enter type, length in miles, duration in minutes, and weight in pounds.  After logging your workout, you can see your stats.  This app uses Mongodb with Mongoose.  
+Here is the link to the app: https://workout-tracker20.herokuapp.com/?id=5e760867d2305600171a3240
 
 <!-- # Unit 17 Nosql Homework: Workout Tracker
 
